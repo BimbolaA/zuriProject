@@ -3,6 +3,24 @@ body {
     font-size: 15px;
 }
 
+header a {
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+header p {
+    background-color: rgb(106, 106, 240);
+    padding: 15px;
+    width: 20%;
+    margin: 15px auto;
+    border-radius: 6px;
+    text-align: center;
+}
+
+header p:hover {
+    background-color: rgb(34, 34, 226);
+}
+
 main {
     display: flex;
     width: 70%;
