@@ -1,0 +1,82 @@
+body {
+    width: 1440px;
+    font-size: 15px;
+}
+
+main {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    border-radius: 6px;
+
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.card {
+    padding: 2rem;
+}
+
+.button {
+    background-color: hsl(0, 0%, 95%);
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-top: 70px;
+    width: 50%;
+}
+
+.button:hover {
+    background-color: inherit;
+    cursor: pointer;
+    border: 2px solid hsl(0, 0%, 95%);
+}
+
+
+#container {
+    display: flex;
+    width: 70%;
+}
+
+#sedan-card {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 6px 0 0 6px;
+}
+
+#suv-card {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#luxury-card {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 6px 6px 0;
+}
+
+.button-link {
+    background-color: rgb(107, 107, 212)107, 107, 212);
+    padding: 10px 15px;
+    border-radius: 6px 0 6px 0;
+}
+
+@media only screen and (max-width: 375px) {
+    main {
+        width: 30%;
+    }
+    #container {
+        flex-direction: column;
+    }
+    #sedan-card {
+        border-radius: 6px 6px 0 0;
+    }
+    #luxury-card {
+        border-radius: 0 0 6px 6px;
+    }
+
+}

@@ -1,0 +1,45 @@
+body {
+    width: 1440px;
+}
+
+main {
+    width: 60%;
+    margin: 40px auto;
+    display: grid;
+    gap: 20px;
+    grid-template-areas: 
+    'a a a b'
+    'c c d d '
+    'c c e e'
+    ;
+}
+
+div {
+    padding: 4rem;
+}
+
+
+.box-a {
+    background-color: red;
+    grid-area: a;
+}
+
+.box-b { 
+    background-color: green;
+    grid-area: b;
+}
+
+.box-c {
+    background-color: yellow;
+    grid-area: c;
+}
+
+.box-d {
+    background-color: blue;
+    grid-area: d;
+}
+
+.box-e {
+    background-color: blue;
+    grid-area: e;
+}
