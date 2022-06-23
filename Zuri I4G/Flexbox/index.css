@@ -3,8 +3,27 @@ body {
     font-size: 15px;
 }
 
+header a {
+    text-decoration: none;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+header p {
+    background-color: rgb(106, 106, 240);
+    padding: 15px;
+    width: 20%;
+    margin: 15px auto;
+    border-radius: 6px;
+    text-align: center;
+}
+
+header p:hover {
+    background-color: rgb(34, 34, 226);
+}
+
 main {
     display: flex;
+    justify-content: center;
     width: 70%;
     margin: auto;
     border-radius: 6px;
@@ -60,14 +79,17 @@ p {
 }
 
 .button-link {
-    background-color: rgb(107, 107, 212)107, 107, 212);
+    background-color: rgb(107, 107, 212);
     padding: 10px 15px;
     border-radius: 6px 0 6px 0;
 }
 
 @media only screen and (max-width: 375px) {
+    body {
+        width: 375px;
+    }
     main {
-        width: 30%;
+        width: 90%;
     }
     #container {
         flex-direction: column;
